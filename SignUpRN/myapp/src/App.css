@@ -1,0 +1,16 @@
+.Nav-ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.Nav-ul li a {
+  padding: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+.Nav-ul {
+  padding: 10px;
+  margin: 0;
+  background-color: rgb(32, 5, 15);
+}
+
