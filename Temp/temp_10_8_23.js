@@ -14,14 +14,14 @@ const App1 = () =>{
         const value = event.target.value;
         const name = event.target.name;
 
-        setFullName((prev) => {
-            console.log(prev);
+        setFullName((preValue) => {
+            console.log(preValue);
         });
     };
 
     const onSubmits = (event) => {
         event.preventDefault();
-    }
+    };
 
     return (
         <>
